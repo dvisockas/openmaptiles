@@ -47,8 +47,8 @@ fi
 
 if [ $# -eq 0 ]; then
   #  default test area
-  export area=albania
-  echo "No parameter - set area=$area "
+  export area=planet
+  echo "No area parameter - set area=$area "
 else
   export area=$1
 fi
